@@ -1,0 +1,10 @@
+server :
+    port : 9999
+
+eureka :
+    instance :
+        hostname : registry
+    
+    client :
+        register-with-eureka : false
+        fetch-registry : false
